@@ -1,4 +1,4 @@
-2] To run the second program :
+1] To run the program :
 
    1. cd ../../usr/src/linux-2.6.32.70/drivers/char/testprocess/
    2. sudo insmod test.ko

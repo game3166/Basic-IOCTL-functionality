@@ -1,0 +1,1 @@
+cmd_/usr/src/linux-2.6.32.70/drivers/char/testprocess/test.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.2.0-29-generic-pae/scripts/module-common.lds --build-id  -o /usr/src/linux-2.6.32.70/drivers/char/testprocess/test.ko /usr/src/linux-2.6.32.70/drivers/char/testprocess/test.o /usr/src/linux-2.6.32.70/drivers/char/testprocess/test.mod.o

@@ -1,0 +1,11 @@
+2] To run the second program :
+
+   1. cd ../../usr/src/linux-2.6.32.70/drivers/char/testprocess/
+   2. sudo insmod test.ko
+   3. in other terminal open path .../testcall
+   4. execute sudo chmod 777 /dev/getprocinfo
+   4. Run the program using ./a.out
+   5. Enter the PID number of the process when prompted
+   6. The proc info structure information gets printed
+   7. dmesg in terminal 1
+   8. remove the module-> sudo rmmod test.ko
